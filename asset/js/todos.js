@@ -17,7 +17,7 @@ $("input[type='text']").keypress(function(event){
 		var text = $(this).val();
 		// clearing the input
 		$(this).val("");
-		$("ul").append("<li><span><i class='fa fa-eraser' aria-hidden='true'></i></span> "+text+"</li>");
+		$("ul").append("<li><span><i class='fa fa-eraser fa-2x' aria-hidden='true'></i></span> "+text+"</li>");
 
 	}
 });
